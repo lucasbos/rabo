@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+            html, body {
+                border: 0;
+                height: 100%;
+                margin: 0;
+                outline: 0;
+                padding: 0;
+                width: 100%;
+            }
+            header {
+                border-bottom: 1px solid #333;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+                width: 100%;
+            }
+            #container {
+                box-sizing: border-box;
+                margin-bottom: -202px;
+                min-height: 100%;
+                overflow: auto;
+                padding-bottom: 202px;
+                position: relative;
+            }
+            nav {
+                box-sizing: border-box;
+                float: left;
+                min-height: 1px;
+                padding-right: 1px;
+                width: 25%;
+            }
+            #bar {
+                border-left: 1px solid #333;
+                bottom: 202px;
+                left: 25%;
+                margin-left: -1px;
+                position: absolute;
+                top: 0;
+            }
+            main {
+                float: left;
+                min-height: 1px;
+                width: 75%;
+            }
+            footer {
+                border-top: 1px solid #333;
+                height: 100px;
+                line-height: 100px;
+                text-align: center;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>header</header>
+        <div id="container">
+            <nav>menu</nav>
+            <div id="bar"></div>
+            <main>
+                content<br/>
+                <img src="./rabobank_logo.jpg"/>
+            </main>
+        </div>
+        <footer>footer</footer>
+    </body>
+</html>
